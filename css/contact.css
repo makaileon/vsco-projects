@@ -1,0 +1,86 @@
+.contact-main {
+    width: 100%;
+    height: 500px;
+    margin-top: 120px;
+    position: relative;
+}
+
+.contact-video {
+    height: 500px;
+    min-width: 95%;
+    object-fit: cover;
+    position: absolute;
+    left: 2.5%;
+}
+
+.contact-header {
+    border: 10px double white;
+    font-size: 56px;
+    color: white;
+    text-shadow: 3px 0px black;
+    position: absolute;
+    top: 33%; 
+    left: 39%;
+    padding: 20px;
+    display: block;
+    margin: auto;
+}
+.contact-section {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+.box3 {
+     width: 40%;
+     height: 800px;
+    position: absolute;
+    top: 100px;
+    border: 2px solid black;
+}
+.map {
+    left: 100px;
+}
+
+.contact-form {
+    right: 100px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #a976bc;
+    position: relative;
+}
+
+.footer-input {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+
+input {
+    width: 150px;
+    display: inline-block;
+}
+
+.social {
+    position: absolute;
+    left: 650px; 
+    top: 35px;
+    font-size: 40px;
+}
+
+.fab {
+    color: white;
+    height: 20px;
+}
+
+.copy {
+    position: absolute;
+    right: 130px;
+    top: 14px;
+    font-size: 26px;
+    color: white;
+}

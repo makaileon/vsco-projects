@@ -1,0 +1,166 @@
+
+body {
+    margin: 0 auto;
+}
+.nav-bar {
+    background-color: rgba(155, 192, 202, .9);
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+
+.logo {
+    width: 90px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: solid #a976bc 3px;
+}
+
+.nav-list {
+    float: right;
+    margin-right: 25px;
+    margin-top: 45px;
+}
+
+.list-item { 
+    display: inline-block;
+    margin-right: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    height: 20px;
+    width: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 10px;
+    font-weight: bold;
+    border-right: 2px solid #a976bc;
+    border-left: 2px solid #a976bc;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #a976bc;
+}
+
+.nav-list a:hover {
+    color: #a976bc;
+    font-size: 17px;
+}
+
+.list-item:hover {
+    background-color: white;
+}
+
+.main {
+    height: 1000px;
+    width: 100%;
+    background-image: url(../images/mob2.png);
+    background-size: cover;
+    margin-top: 120px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-box {
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    left: 45%;
+}
+
+.main-text {
+    color: rgba(255, 255, 255, .4);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 3px 3px black;
+}
+
+.section {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-color: #9bc0ca;
+}
+
+.section-img {
+    width: 50%;
+    height: 800px;
+    position: absolute;
+    top: 0px;
+}
+
+.section-p {
+    width: 50%;
+    height: 800px;
+    position: absolute;
+    left: 50%;
+    text-indent: 40px;
+}
+
+.section-image {
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.p1 {
+    position: absolute;
+    top: 175px;
+    right: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+    color: #a976bc;
+}
+
+.p2 {
+    position: absolute;
+    top: 380px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #a976bc;
+    position: relative;
+}
+
+.footer-input {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+
+input {
+    width: 150px;
+    display: inline-block;
+}
+
+.social {
+    position: absolute;
+    left: 650px; 
+    top: 35px;
+    font-size: 40px;
+}
+
+.fab {
+    color: white;
+    height: 20px;
+}
+
+.copy {
+    position: absolute;
+    right: 130px;
+    top: 14px;
+    font-size: 26px;
+    color: white;
+}
